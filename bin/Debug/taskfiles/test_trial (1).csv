@@ -1,0 +1,48 @@
+Trial,Task,Cognitive,Visual,Name,Cuisine,Rating,Reviews,Price,Distance,Score,N_Prompt,Text_Prompt,N_Audio,R_Name,R_Audio_Prompt,R_Audio_Confirm,R_Name_Incorrect,R_Audio_Incorrect
+1,Nav,Easy,Easy,Nickel Diner,American,4,122,$$$,2.9,1,practice_prompt_1.mp3,Please find a restaurant within 3 miles,p_v_trail_1.mp3,NA,NA,NA,NA,NA
+1,Nav,Easy,Easy,Off Vine,American,4.5,47,$$$,4.4,0,practice_prompt_1.mp3,Please find a restaurant within 3 miles,p_v_trail_1.mp3,NA,NA,NA,NA,NA
+1,Nav,Easy,Easy,Cooks County,American,5,13,$$,10.4,0,practice_prompt_1.mp3,Please find a restaurant within 3 miles,p_v_trail_1.mp3,NA,NA,NA,NA,NA
+1,Nav,Easy,Easy,Patina,French,4,99,$$$$,13.5,0,practice_prompt_1.mp3,Please find a restaurant within 3 miles,p_v_trail_1.mp3,NA,NA,NA,NA,NA
+1,Nav,Easy,Easy,Desert Rose,American,3.5,28,$$$$,24.9,0,practice_prompt_1.mp3,Please find a restaurant within 3 miles,p_v_trail_1.mp3,NA,NA,NA,NA,NA
+
+2,Nav,Easy,Easy,Chipotle,Mexican,4,27,$,7.2,1,practice_prompt_2.mp3,Please find a Mexican restaurant,p_v_trail_2.mp3,NA,NA,NA,NA,NA
+2,Nav,Easy,Easy,Woodward Table,American,4,8,$$,10.6,0,practice_prompt_2.mp3,Please find a Mexican restaurant,p_v_trail_2.mp3,NA,NA,NA,NA,NA
+2,Nav,Easy,Easy,Bio Bistro,Vegetarian,4,27,$$$,22.3,0,practice_prompt_2.mp3,Please find a Mexican restaurant,p_v_trail_2.mp3,NA,NA,NA,NA,NA
+2,Nav,Easy,Easy,Wingos,American,3.5,10,$$,28.1,0,practice_prompt_2.mp3,Please find a Mexican restaurant,p_v_trail_2.mp3,NA,NA,NA,NA,NA
+2,Nav,Easy,Easy,Bar Cotto,Italian,4.5,47,$$,29.3,0,practice_prompt_2.mp3,Please find a Mexican restaurant,p_v_trail_2.mp3,NA,NA,NA,NA,NA
+
+3,Nav,Easy,Hard,Le Champion,French,4,8,$$$$,3.5,0,practice_prompt_3.mp3,Please find an American restaurant,p_v_trail_3.mp3,NA,NA,NA,NA,NA
+3,Nav,Easy,Hard,Road to Seoul,Korean,4,64,$$,4,0,practice_prompt_3.mp3,Please find an American restaurant,p_v_trail_3.mp3,NA,NA,NA,NA,NA
+3,Nav,Easy,Hard,Big City Diner,American,3.5,20,$$,13.2,1,practice_prompt_3.mp3,Please find an American restaurant,p_v_trail_3.mp3,NA,NA,NA,NA,NA
+3,Nav,Easy,Hard,Ruby Tuesday,American,3.5,25,$$,14.3,0,practice_prompt_3.mp3,Please find an American restaurant,p_v_trail_3.mp3,NA,NA,NA,NA,NA
+3,Nav,Easy,Hard,Sizzler,American,4.5,5,$,23.3,0,practice_prompt_3.mp3,Please find an American restaurant,p_v_trail_3.mp3,NA,NA,NA,NA,NA
+
+4,Nav,Easy,Hard,Aquafire,American,2.5,55,$$,8.9,0,practice_prompt_4.mp3,Find a restaurant with only 2 dollar sign,p_v_trail_4.mp3,NA,NA,NA,NA,NA
+4,Nav,Easy,Hard,Loulay Kitchen & Bar,French,3.5,34,$$,9.6,0,practice_prompt_4.mp3,Find a restaurant with only 2 dollar sign,p_v_trail_4.mp3,NA,NA,NA,NA,NA
+4,Nav,Easy,Hard,Restaurant Zoe,Italian,4.5,92,$$$,11,0,practice_prompt_4.mp3,Find a restaurant with only 2 dollar sign,p_v_trail_4.mp3,NA,NA,NA,NA,NA
+4,Nav,Easy,Hard,Rib Rage,American,2,238,$$$,14.1,0,practice_prompt_4.mp3,Find a restaurant with only 2 dollar sign,p_v_trail_4.mp3,NA,NA,NA,NA,NA
+4,Nav,Easy,Hard,Costas Restaurant,Greek,5,426,$$,25.7,1,practice_prompt_4.mp3,Find a restaurant with only 2 dollar sign,p_v_trail_4.mp3,NA,NA,NA,NA,NA
+
+5,Nav,Hard,Easy,Altura,Italian,4.5,11,$$$,6.7,1,practice_prompt_5.mp3,Find a 4.5 star an Italian restaurant less than 13 miles away,p_v_trail_5.mp3,NA,NA,NA,NA,NA
+5,Nav,Hard,Easy,Jersey Mike's,American,3.5,97,$$,16.1,0,practice_prompt_5.mp3,Find a 4.5 star an Italian restaurant less than 13 miles away,p_v_trail_5.mp3,NA,NA,NA,NA,NA
+5,Nav,Hard,Easy,Momiji,Japanese,4,31,$$,19.3,0,practice_prompt_5.mp3,Find a 4.5 star an Italian restaurant less than 13 miles away,p_v_trail_5.mp3,NA,NA,NA,NA,NA
+5,Nav,Hard,Easy,Bob's Bakery,American,3,41,$$$,18.1,0,practice_prompt_5.mp3,Find a 4.5 star an Italian restaurant less than 13 miles away,p_v_trail_5.mp3,NA,NA,NA,NA,NA
+5,Nav,Hard,Easy,Luc,French,4,26,$$,23.1,0,practice_prompt_5.mp3,Find a 4.5 star an Italian restaurant less than 13 miles away,p_v_trail_5.mp3,NA,NA,NA,NA,NA
+
+6,Nav,Hard,Easy,Lee's Cheese,American,4,11,$$,2.5,1,practice_prompt_6.mp3,Please find a 2 dollar sign 4 star restaurant with at least 10 reviews,p_v_trail_6.mp3,NA,NA,NA,NA,NA
+6,Nav,Hard,Easy,Metropolitan Grill,American,3.5,109,$$$,7.1,0,practice_prompt_6.mp3,Please find a 2 dollar sign 4 star restaurant with at least 10 reviews,p_v_trail_6.mp3,NA,NA,NA,NA,NA
+6,Nav,Hard,Easy,Mamnoon,Middle Eastern,4.5,29,$$$,20.7,0,practice_prompt_6.mp3,Please find a 2 dollar sign 4 star restaurant with at least 10 reviews,p_v_trail_6.mp3,NA,NA,NA,NA,NA
+6,Nav,Hard,Easy,Tango,Spanish,4,170,$$,21.8,0,practice_prompt_6.mp3,Please find a 2 dollar sign 4 star restaurant with at least 10 reviews,p_v_trail_6.mp3,NA,NA,NA,NA,NA
+6,Nav,Hard,Easy,Tulio,Italian,4,102,$$$,25.8,0,practice_prompt_6.mp3,Please find a 2 dollar sign 4 star restaurant with at least 10 reviews,p_v_trail_6.mp3,NA,NA,NA,NA,NA
+
+7,Nav,Hard,Hard,The Kitchen,American,3.5,45,$$,3.6,0,practice_prompt_7.mp3,Go find an American restaurant with at least 4 stars and has only 2 dollar sign,p_v_trail_7.mp3,NA,NA,NA,NA,NA
+7,Nav,Hard,Hard,Little Dom's,Italian,4,74,$$,12.5,0,practice_prompt_7.mp3,Go find an American restaurant with at least 4 stars and has only 2 dollar sign,p_v_trail_7.mp3,NA,NA,NA,NA,NA
+7,Nav,Hard,Hard,Little Fork,American,3.5,18,$$$,13.8,0,practice_prompt_7.mp3,Go find an American restaurant with at least 4 stars and has only 2 dollar sign,p_v_trail_7.mp3,NA,NA,NA,NA,NA
+7,Nav,Hard,Hard,Father's Office,American,4.5,208,$$,19.9,1,practice_prompt_7.mp3,Go find an American restaurant with at least 4 stars and has only 2 dollar sign,p_v_trail_7.mp3,NA,NA,NA,NA,NA
+7,Nav,Hard,Hard,The Corner Door,American,3,54,$$$,22.7,0,practice_prompt_7.mp3,Go find an American restaurant with at least 4 stars and has only 2 dollar sign,p_v_trail_7.mp3,NA,NA,NA,NA,NA
+
+8,Nav,Hard,Hard,Cactus,Mexican,2.5,13,$$$,2.4,0,practice_prompt_8.mp3,"Locate a restaurant with less than 3 dollar sign, has 4 star rating and over 100 reviews",p_v_trail_8.mp3,NA,NA,NA,NA,NA
+8,Nav,Hard,Hard,Loaf Around,American,3,129,$,2.8,0,practice_prompt_8.mp3,"Locate a restaurant with less than 3 dollar sign, has 4 star rating and over 100 reviews",p_v_trail_8.mp3,NA,NA,NA,NA,NA
+8,Nav,Hard,Hard,Yard House,American,2.5,62,$$$,3.7,0,practice_prompt_8.mp3,"Locate a restaurant with less than 3 dollar sign, has 4 star rating and over 100 reviews",p_v_trail_8.mp3,NA,NA,NA,NA,NA
+8,Nav,Hard,Hard,Chandler's Crabhouse,Seafood,4,271,$$$,20.5,1,practice_prompt_8.mp3,"Locate a restaurant with less than 3 dollar sign, has 4 star rating and over 100 reviews",p_v_trail_8.mp3,NA,NA,NA,NA,NA
+8,Nav,Hard,Hard,Lola,Greek,4,180,$$$,28,0,practice_prompt_8.mp3,"Locate a restaurant with less than 3 dollar sign, has 4 star rating and over 100 reviews",p_v_trail_8.mp3,NA,NA,NA,NA,NA

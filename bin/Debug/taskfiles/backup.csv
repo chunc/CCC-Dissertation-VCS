@@ -1,0 +1,46 @@
+Trial,Task,Cognitive,Visual,Name,Cuisine,Rating,Reviews,Price,Distance,Score,N_Prompt,Text_Prompt,N_Audio,R_Name,R_Audio_Prompt,R_Audio_Confirm,R_Name_Incorrect,R_Audio_Incorrect
+1,Nav Hard,Easy,Easy,Nickel Diner,American,4,122,$$$,2.9,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_1.mp3,NA,NA,NA,NA,NA
+1,Nav Hard,Easy,Easy,Off Vine,American,4.5,47,$$$,4.4,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_1.mp3,NA,NA,NA,NA,NA
+1,Nav Hard,Easy,Easy,Cooks County,American,5,13,$$,10.4,1,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_1.mp3,NA,NA,NA,NA,NA
+1,Nav Hard,Easy,Easy,Patina,French,4,99,$$$$,13.5,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_1.mp3,NA,NA,NA,NA,NA
+1,Nav Hard,Easy,Easy,Desert Rose,American,3.5,28,$$$$,24.9,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_1.mp3,NA,NA,NA,NA,NA
+2,Nav Easy,Easy,Easy,Chipotle,Mexican,4,27,$,7.2,0,n_prompt1.mp3,Muhahahahahaha,p_v_trail_2.mp3,NA,NA,NA,NA,NA
+2,Nav Easy,Easy,Easy,Woodward Table,American,4,8,$$,10.6,1,n_prompt1.mp3,Muhahahahahaha,p_v_trail_2.mp3,NA,NA,NA,NA,NA
+2,Nav Easy,Easy,Easy,Cactus Restaurant,Mexican,4,27,$$,22.3,0,n_prompt1.mp3,Muhahahahahaha,p_v_trail_2.mp3,NA,NA,NA,NA,NA
+2,Nav Easy,Easy,Easy,Wingos,American,3.5,10,$$,28.1,0,n_prompt1.mp3,Muhahahahahaha,p_v_trail_2.mp3,NA,NA,NA,NA,NA
+2,Nav Easy,Easy,Easy,Bar Cotto,Italian,4.5,47,$$,29.3,0,n_prompt1.mp3,Muhahahahahaha,p_v_trail_2.mp3,NA,NA,NA,NA,NA
+3,Nav Hard,Easy,Easy,Red Hill,American,4,8,$$$$,3.5,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_3.mp3,NA,NA,NA,NA,NA
+3,Nav Hard,Easy,Easy,Road to Seoul,Korean,4,64,$$,4,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_3.mp3,NA,NA,NA,NA,NA
+3,Nav Hard,Easy,Easy,Big City Diner,American,3.5,20,$$,13.2,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_3.mp3,NA,NA,NA,NA,NA
+3,Nav Hard,Easy,Easy,Ruby Tuesday,American,3.5,25,$$,14.3,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_3.mp3,NA,NA,NA,NA,NA
+3,Nav Hard,Easy,Easy,Sizzler,American,4.5,5,$,23.3,1,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_3.mp3,NA,NA,NA,NA,NA
+4,Nav Easy,Easy,Easy,Aquafire,American,2.5,81,$$,8.9,1,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_4.mp3,NA,NA,NA,NA,NA
+4,Nav Easy,Easy,Easy,Loulay Kitchen & Bar,French,3.5,12,$$,9.6,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_4.mp3,NA,NA,NA,NA,NA
+4,Nav Easy,Easy,Easy,Restaurant Zoe,Italian,4.5,92,$$$,11,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_4.mp3,NA,NA,NA,NA,NA
+4,Nav Easy,Easy,Easy,Rib Rage,American,2,238,$$$,14.1,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_4.mp3,NA,NA,NA,NA,NA
+4,Nav Easy,Easy,Easy,Costas Restaurant,Greek,4,33,$$,25.7,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_4.mp3,NA,NA,NA,NA,NA
+5,Nav Easy,Easy,Easy,Altura,Italian,4.5,11,$$$,6.7,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_5.mp3,NA,NA,NA,NA,NA
+5,Nav Easy,Easy,Easy,Jersey Mike's,American,3.5,97,$$,16.1,1,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_5.mp3,NA,NA,NA,NA,NA
+5,Nav Easy,Easy,Easy,Momiji,Japanese,4,31,$$,19.3,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_5.mp3,NA,NA,NA,NA,NA
+5,Nav Easy,Easy,Easy,Bob's Bakery,American,3,41,$$$,18.1,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_5.mp3,NA,NA,NA,NA,NA
+5,Nav Easy,Easy,Easy,Luc,French,4,26,$$,23.1,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_5.mp3,NA,NA,NA,NA,NA
+6,Nav Easy,Easy,Easy,Lee's Cheese,American,4,11,$$,2.5,1,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_6.mp3,NA,NA,NA,NA,NA
+6,Nav Easy,Easy,Easy,Metropolitan Grill,American,3.5,109,$$$,7.1,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_6.mp3,NA,NA,NA,NA,NA
+6,Nav Easy,Easy,Easy,Mamnoon,Middle Eastern,4.5,29,$$$,20.7,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_6.mp3,NA,NA,NA,NA,NA
+6,Nav Easy,Easy,Easy,Tango,Spanish,4,170,$$,21.8,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_6.mp3,NA,NA,NA,NA,NA
+6,Nav Easy,Easy,Easy,Tulio,Italian,4,102,$$$,25.8,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_6.mp3,NA,NA,NA,NA,NA
+7,Nav Hard,Easy,Easy,The Kitchen,American,4,45,$$$,3.6,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_7.mp3,NA,NA,NA,NA,NA
+7,Nav Hard,Easy,Easy,Little Dom's,Italian,4,74,$$,12.5,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_7.mp3,NA,NA,NA,NA,NA
+7,Nav Hard,Easy,Easy,Little Fork,American,3.5,18,$$$,13.8,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_7.mp3,NA,NA,NA,NA,NA
+7,Nav Hard,Easy,Easy,Father's Office,American,4.5,208,$$,19.9,1,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_7.mp3,NA,NA,NA,NA,NA
+7,Nav Hard,Easy,Easy,The Corner Door,American,3,54,$$$,22.7,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_7.mp3,NA,NA,NA,NA,NA
+8,Nav Easy,Easy,Easy,Cactus,Mexican,2.5,13,$$,2.4,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_8.mp3,NA,NA,NA,NA,NA
+8,Nav Easy,Easy,Easy,Loaf Around,American,3,129,$,2.8,1,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_8.mp3,NA,NA,NA,NA,NA
+8,Nav Easy,Easy,Easy,Yard House,American,2.5,62,$$,3.7,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_8.mp3,NA,NA,NA,NA,NA
+8,Nav Easy,Easy,Easy,Chandler's Crabhouse,Seafood,4,51,$$,20.5,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_8.mp3,NA,NA,NA,NA,NA
+8,Nav Easy,Easy,Easy,Lola,Greek,4,180,$$,28,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_8.mp3,NA,NA,NA,NA,NA
+9,Nav Easy,Easy,Easy,The Georgian,French,4.5,30,$$$,4.1,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_9.mp3,NA,NA,NA,NA,NA
+9,Nav Easy,Easy,Easy,Lark,American,4.5,53,$$$,12.1,1,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_9.mp3,NA,NA,NA,NA,NA
+9,Nav Easy,Easy,Easy,Wild Ginger,Chinese,4,584,$$,18.5,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_9.mp3,NA,NA,NA,NA,NA
+9,Nav Easy,Easy,Easy,Maximilien Restaurant,French,4,68,$$$,18.9,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_9.mp3,NA,NA,NA,NA,NA
+9,Nav Easy,Easy,Easy,Sand Point Grill,American,2.5,20,$$$$,29.3,0,n_prompt1.mp3,Please find an American restaurant with at least 5 star rating,p_v_trail_9.mp3,NA,NA,NA,NA,NA

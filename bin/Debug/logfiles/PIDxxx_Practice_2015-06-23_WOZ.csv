@@ -1,0 +1,27 @@
+PID, Date, Time, RunType, Scenario, Trial, Task, Cognitive, Visual, InputEvent, ElapsedTime, Duration, N_OptimalChoice, R_FirstTry, Notes
+xxx,6/23/2015,22:03:54,Practice,1A,1,TDT Long,NA,NA,Start Run,22:03:54.88,63570693834.881,NA,NA,
+xxx,6/23/2015,22:04:00,Practice,1A,1,TDT Long,NA,NA,chime,0:00:05.02,5.022,NA,NA,
+xxx,6/23/2015,22:04:04,Practice,1A,2,Nav,Easy,Easy,(phase) Listening Start,0:00:09.53,4.518,NA,NA,
+xxx,6/23/2015,22:04:04,Practice,1A,2,Nav,Easy,Easy,Jump to trial 2,0:00:00.00,-9.54,NA,NA,
+xxx,6/23/2015,22:04:05,Practice,1A,2,Nav,Easy,Easy,(phase) Listening Stop,0:00:01.13,1.137,NA,NA,
+xxx,6/23/2015,22:04:05,Practice,1A,2,Nav,Easy,Easy,(phase) Speaking Start,0:00:01.14,0.005,NA,NA,
+PID, Date, Time, RunType, Scenario, Trial, Task, Cognitive, Visual, InputEvent, ElapsedTime, Duration, N_OptimalChoice, R_FirstTry, Notes
+PID, Date, Time, RunType, Scenario, Trial, Task, Cognitive, Visual, InputEvent, ElapsedTime, Duration, N_OptimalChoice, R_FirstTry, Notes
+xxx,6/23/2015,22:04:57,Practice,1A,1,TDT Long,NA,NA,Start Run,22:04:57.62,63570693897.628,NA,NA,
+xxx,6/23/2015,22:05:02,Practice,1A,2,Nav,Easy,Easy,(phase) Listening Start,0:00:04.65,-63570693892.971,NA,NA,
+xxx,6/23/2015,22:05:02,Practice,1A,2,Nav,Easy,Easy,Jump to trial 2,0:00:00.00,-4.657,NA,NA,
+xxx,6/23/2015,22:05:02,Practice,1A,2,Nav,Easy,Easy,chime,0:00:00.35,0.353,NA,NA,
+xxx,6/23/2015,22:05:03,Practice,1A,2,Nav,Easy,Easy,(phase) Listening Stop,0:00:01.11,0.761,NA,NA,
+xxx,6/23/2015,22:05:03,Practice,1A,2,Nav,Easy,Easy,(phase) Speaking Start,0:00:01.11,0.005,NA,NA,
+PID, Date, Time, RunType, Scenario, Trial, Task, Cognitive, Visual, InputEvent, ElapsedTime, Duration, N_OptimalChoice, R_FirstTry, Notes
+xxx,6/23/2015,22:05:47,Practice,1A,1,TDT Long,NA,NA,Start Run,22:05:47.74,63570693947.749,NA,NA,
+xxx,6/23/2015,22:05:52,Practice,1A,1,TDT Long,NA,NA,chime,0:00:05.01,5.018,NA,NA,
+xxx,6/23/2015,22:05:53,Practice,1A,2,Nav,Easy,Easy,(phase) Listening Start,0:00:05.28,0.267,NA,NA,
+xxx,6/23/2015,22:05:53,Practice,1A,2,Nav,Easy,Easy,Jump to trial 2,0:00:00.00,-5.285,NA,NA,
+xxx,6/23/2015,22:05:54,Practice,1A,2,Nav,Easy,Easy,(phase) Listening Stop,0:00:01.34,1.343,NA,NA,
+xxx,6/23/2015,22:05:54,Practice,1A,2,Nav,Easy,Easy,(phase) Speaking Start,0:00:01.34,0.005,NA,NA,
+xxx,6/23/2015,22:06:06,Practice,1A,2,Nav,Easy,Easy,(phase) Speaking Stop,0:00:13.28,11.938,NA,NA,
+xxx,6/23/2015,22:06:06,Practice,1A,2,Nav,Easy,Easy,(btn) command incorrect,0:00:13.30,0.014,NA,NA,
+xxx,6/23/2015,22:06:11,Practice,1A,3,Nav,Easy,Easy,(phase) Listening Start,0:00:18.30,5.007,NA,NA,
+xxx,6/23/2015,22:06:12,Practice,1A,3,Nav,Easy,Easy,(phase) Listening Stop,0:00:19.45,1.148,NA,NA,
+xxx,6/23/2015,22:06:12,Practice,1A,3,Nav,Easy,Easy,(phase) Speaking Start,0:00:19.46,0.006,NA,NA,

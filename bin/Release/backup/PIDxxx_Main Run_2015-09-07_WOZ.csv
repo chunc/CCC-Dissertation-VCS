@@ -1,0 +1,5 @@
+PID, Date, Time, RunType, Scenario, Trial, Task, Mode, InputEvent, ElapsedTime, Duration, N_OptimalChoice, R_FirstTry, Notes
+xxx,9/7/2015,12:37:44,Main Run,1A,1,TDT Long,NA,Start Run,0:00:00.00,0,NA,NA,
+xxx,9/7/2015,12:37:49,Main Run,1A,1,TDT Long,NA,chime,0:00:05.02,5.026,NA,NA,
+xxx,9/7/2015,12:37:55,Main Run,1A,2,Nav Easy,Audio Only,Jump to trial 2,0:00:00.00,-5.026,NA,NA,
+xxx,9/7/2015,12:37:56,Main Run,1A,2,Nav Easy,Audio Only,(nav) end prompt,0:00:01.12,1.128,NA,NA,

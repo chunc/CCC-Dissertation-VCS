@@ -1,0 +1,545 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Wizard Window" Width="1280" Height="720">
+
+
+    <!--CSS Style Settings-->
+    <Window.Resources>
+        <Style x:Key="ListGroup" TargetType="GroupBox">
+            <Setter Property="BorderThickness" Value="3"/>
+            <Setter Property="FontSize" Value="18" />
+        </Style>
+        <Style x:Key="ImageStar" TargetType="Image">
+
+        </Style>
+
+        <Style x:Key="radio_btn" TargetType="Button">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Margin" Value="5" />
+        </Style>
+    </Window.Resources>
+
+    <Grid Background="Teal" x:Name="WIZ_BG">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="15*" />
+            <ColumnDefinition Width="15*" />
+            <ColumnDefinition Width="30*" />
+            <ColumnDefinition Width="30*" />
+            <ColumnDefinition Width="15*" />
+            <ColumnDefinition Width="15*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30*" />
+            <RowDefinition Height="36*"/>
+            <RowDefinition Height="590*" />
+            <RowDefinition Height="73*" />
+        </Grid.RowDefinitions>
+
+        <Label 
+            x:Name="wiz_label" 
+            Content="CCC Wizard"
+            Grid.Row="0" 
+            Grid.Column="0" 
+            Grid.ColumnSpan="2" 
+            FontSize="25" 
+            FontWeight="Bold" 
+            MouseEnter="mouse_enter" 
+            MouseLeave="mouse_leave" Grid.RowSpan="2"/>
+
+        <ComboBox Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" Margin="0 5 0 0" FontSize="15" SelectionChanged="ComboBox_SelectionChanged">
+            <ComboBoxItem>Practice Run</ComboBoxItem>
+            <ComboBoxItem>------------------------------------------</ComboBoxItem>
+            <ComboBoxItem>Main Scenario 1A</ComboBoxItem>
+            <ComboBoxItem>Main Scenario 1B</ComboBoxItem>
+            
+            <!--<ComboBoxItem>Main Scenario 2A</ComboBoxItem>
+            <ComboBoxItem>Main Scenario 2B</ComboBoxItem>
+            <ComboBoxItem>Main Scenario 3A</ComboBoxItem>
+            <ComboBoxItem>Main Scenario 3B</ComboBoxItem>
+            <ComboBoxItem>Main Scenario 4A</ComboBoxItem>
+            <ComboBoxItem>Main Scenario 4B</ComboBoxItem>-->
+            
+        </ComboBox>
+
+        <Label x:Name="wiz_pid"
+               Grid.Row="1"
+               Grid.Column="0"
+               FontSize="18"
+               FontWeight="Bold"
+               VerticalAlignment="Bottom"
+               Content="PID:"/>
+
+        <Label x:Name="wiz_task"
+               Grid.Row="1"
+               Grid.Column="1"
+               FontSize="18"
+               FontWeight="Bold"
+               VerticalAlignment="Bottom"
+               Content="Task:"/>
+
+        <Label x:Name="wiz_cog"
+               Grid.Row="1"
+               Grid.Column="2"
+               FontSize="18"
+               FontWeight="Bold"
+               VerticalAlignment="Bottom"
+               Content="Cognitive:"/>
+
+        <Label x:Name="wiz_vis"
+               Grid.Row="1"
+               Grid.Column="3"
+               FontSize="18"
+               FontWeight="Bold"
+               VerticalAlignment="Bottom"
+               Content="Visual:"/>
+
+        <Label x:Name="wiz_trial"
+               Grid.Row="1"
+               Grid.Column="4"
+               FontSize="18"
+               FontWeight="Bold"
+               VerticalAlignment="Bottom"
+               Content="Trial:"/>
+
+        <Label x:Name="wiz_version"
+               Grid.Row="1"
+               Grid.Column="5"
+               FontSize="18"
+               FontWeight="Bold"
+               VerticalAlignment="Bottom"
+               Content="version"/>
+
+        <Grid Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" Name="wiz_btn_controls">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="15*" />
+                <ColumnDefinition Width="15*" />
+                <ColumnDefinition Width="15*" />
+            </Grid.ColumnDefinitions>
+            
+            <!--
+            <Button 
+                x:Name="wiz_btn_continue" 
+                Content="Correct"
+                Grid.Column="0" 
+                VerticalAlignment="Stretch"
+                Foreground="White"
+                Background="Green" 
+                FontSize="18" 
+                FontWeight="Bold" Click="wiz_btn_continue_Click" />
+
+            <Button 
+                x:Name="wiz_btn_incorrect" 
+                Content="Incorrect"
+                Grid.Column="1" 
+                VerticalAlignment="Stretch"
+                Foreground="White"
+                Background="Red" 
+                FontSize="18" 
+                FontWeight="Bold" Click="wiz_btn_incorrect_Click"/>
+            -->
+
+            <Button
+			    x:Name="wiz_btn_none"
+			    Content="None"
+			    Grid.Column="1"
+			    VerticalAlignment="Stretch"
+			    Background="MediumPurple"
+			    FontSize="18"
+			    Foreground="Black"
+			    FontWeight="Bold" Click="wiz_btn_none_Click"/>
+        </Grid>
+
+        <Button 
+            x:Name="wiz_btn_start" 
+            Content="Start"
+            Grid.Row="3" 
+            Grid.Column="0"
+            Grid.ColumnSpan="1"
+            VerticalAlignment="Stretch" 
+            Background="LightSlateGray" 
+            FontSize="18" 
+            FontWeight="Bold" Click="wiz_btn_start_Click"/>
+
+        <!--<Button 
+            x:Name="wiz_btn_continue" 
+            Content="Continue"
+            Grid.Row="3" 
+            Grid.Column="2" 
+            VerticalAlignment="Stretch" 
+            Background="LightGreen" 
+            FontSize="18" 
+            FontWeight="Bold" Click="wiz_btn_continue_Click" />
+
+        <Button
+			x:Name="wiz_btn_none"
+			Content="None of the above"
+            Grid.Row="3"
+			Grid.Column="3"
+			VerticalAlignment="Stretch"
+			Background="Orange"
+			FontSize="18"
+			Foreground="White"
+			FontWeight="Bold" Click="wiz_btn_none_Click"/>-->
+
+        <Label 
+            Content="Volume:"   
+            Grid.Row="3" 
+            Grid.Column="4"
+            FontSize="16"
+            FontWeight="Bold"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Center"/>
+
+        <TextBox
+            x:Name="volume_box"
+            Grid.Row="3"
+            Grid.Column="5"
+            Height="30"
+            Width="50"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Center"
+            TextAlignment="Center"
+            FontSize="16" />
+
+        <Button
+            x:Name="volume_submit"
+            Content="Ok"
+            Grid.Row="3"
+            Grid.Column="5"
+            Height="30"
+            Width="50"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Center"
+            FontSize="16" Click="volume_submit_Click" />
+
+        <StackPanel Grid.Row="2" Grid.Column="0">
+            <GroupBox Header="Set PID">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="18*"/>
+                        <ColumnDefinition Width="16*"/>
+                        <ColumnDefinition Width="81*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50*" />
+                        <RowDefinition Height="50*" />
+                    </Grid.RowDefinitions>
+                    <TextBox x:Name="txt_box_pid" Grid.Row="0" TextAlignment="Center" Grid.ColumnSpan="3"></TextBox>
+                    <Button x:Name="btn_pid_submit" Grid.Row="1" Margin="2,0,20,0" Click="btn_pid_submit_Click" Grid.ColumnSpan="2" Grid.Column="1" >Submit</Button>
+                </Grid>
+
+            </GroupBox>
+            <Button Click="load_subj_Click">
+                <TextBlock TextWrapping="Wrap" FontSize="14">Show<LineBreak/> VCS Interface</TextBlock>
+            </Button>
+
+            <Button Click="hide_border_Click">
+                <TextBlock TextWrapping="Wrap" FontSize="14">Toggle VCS Borders</TextBlock>
+            </Button>
+
+            <Button x:Name="btn_debug" Click="btn_debug_Click">Debug BTN</Button>
+
+            <!--<GroupBox Header="VCS Borders">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50*" />
+                        <ColumnDefinition Width="50*" />
+                    </Grid.ColumnDefinitions>
+                    <RadioButton Grid.Column="0" IsChecked="True">On</RadioButton>
+                    <RadioButton Grid.Column="1">Off</RadioButton>
+                </Grid>
+                
+            </GroupBox>-->
+            <GroupBox Header="Jump to Trial:" Name="jump_trial">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50*" />
+                        <RowDefinition Height="50*" />
+                    </Grid.RowDefinitions>
+
+                    <ComboBox Name="jump_box" Grid.Row="0"></ComboBox>
+                    <Button Name="jump_box_btn" Grid.Row="1" Click="jump_box_btn_Click">Go</Button>
+
+                </Grid>
+
+            </GroupBox>
+        </StackPanel>
+
+        <TabControl x:Name="Wiz_Tab" SelectedIndex="0" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="4">
+            <TabItem Header="Visual Search" Name="tab_visual">
+                <Border
+			        Grid.Row="1"
+			        Grid.Column="1"
+			        Grid.ColumnSpan="4"
+			        Background="White"
+			        BorderBrush="White"
+                    BorderThickness="2"
+			        CornerRadius="3">
+
+                    <Grid x:Name="wiz_select" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" Width="Auto">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="10*" />
+                            <RowDefinition Height="10*" />
+                            <RowDefinition Height="10*" />
+                            <RowDefinition Height="10*" />
+                            <RowDefinition Height="10*" />
+                        </Grid.RowDefinitions>
+
+                        <GroupBox x:Name="line1" Header="Line 1"  Grid.Row="0" Style="{StaticResource ListGroup}" 
+                                  MouseEnter="mouse_enter" MouseLeave="mouse_leave" MouseDown="mouse_down" MouseUp="mouse_up">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="50*"/>
+                                    <RowDefinition Height="50*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="25*"/>
+                                    <ColumnDefinition Width="25*"/>
+                                    <ColumnDefinition Width="25*"/>
+                                    <ColumnDefinition Width="25*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label x:Name="l1_name" Grid.Row="0" Grid.Column="0"></Label>
+                                <Label x:Name="l1_distance" Grid.Row="0" Grid.Column="3"></Label>
+                                <Label x:Name="l1_cuisine" Grid.Row="1" Grid.Column="0"></Label>
+                                <Image x:Name="l1_rating" Grid.Row="1" Grid.Column="1" ></Image>
+                                <Label x:Name="l1_reviews" Grid.Row="1" Grid.Column="2"></Label>
+                                <Label x:Name="l1_price" Grid.Row="1" Grid.Column="3"></Label>
+                            </Grid>
+                        </GroupBox>
+
+                        <GroupBox x:Name="line2" Header="Line 2"  Grid.Row="1" Style="{StaticResource ListGroup}"
+                                  MouseEnter="mouse_enter" MouseLeave="mouse_leave" MouseDown="mouse_down" MouseUp="mouse_up">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="50*"/>
+                                    <RowDefinition Height="50*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="25*"/>
+                                    <ColumnDefinition Width="25*"/>
+                                    <ColumnDefinition Width="25*"/>
+                                    <ColumnDefinition Width="25*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label x:Name="l2_name" Grid.Row="0" Grid.Column="0"></Label>
+                                <Label x:Name="l2_distance" Grid.Row="0" Grid.Column="3"></Label>
+                                <Label x:Name="l2_cuisine" Grid.Row="1" Grid.Column="0"></Label>
+                                <Image x:Name="l2_rating" Grid.Row="1" Grid.Column="1" ></Image>
+                                <Label x:Name="l2_reviews" Grid.Row="1" Grid.Column="2"></Label>
+                                <Label x:Name="l2_price" Grid.Row="1" Grid.Column="3"></Label>
+                            </Grid>
+                        </GroupBox>
+
+                        <GroupBox x:Name="line3" Header="Line 3"  Grid.Row="2" Style="{StaticResource ListGroup}" 
+                                  MouseEnter="mouse_enter" MouseLeave="mouse_leave" MouseDown="mouse_down" MouseUp="mouse_up">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="50*"/>
+                                    <RowDefinition Height="50*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="25*"/>
+                                    <ColumnDefinition Width="25*"/>
+                                    <ColumnDefinition Width="25*"/>
+                                    <ColumnDefinition Width="25*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label x:Name="l3_name" Grid.Row="0" Grid.Column="0"></Label>
+                                <Label x:Name="l3_distance" Grid.Row="0" Grid.Column="3"></Label>
+                                <Label x:Name="l3_cuisine" Grid.Row="1" Grid.Column="0"></Label>
+                                <Image x:Name="l3_rating" Grid.Row="1" Grid.Column="1" ></Image>
+                                <Label x:Name="l3_reviews" Grid.Row="1" Grid.Column="2"></Label>
+                                <Label x:Name="l3_price" Grid.Row="1" Grid.Column="3"></Label>
+                            </Grid>
+                        </GroupBox>
+
+                        <GroupBox x:Name="line4" Header="Line 4"  Grid.Row="3" Style="{StaticResource ListGroup}" 
+                                  MouseEnter="mouse_enter" MouseLeave="mouse_leave" MouseDown="mouse_down" MouseUp="mouse_up">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="50*"/>
+                                    <RowDefinition Height="50*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="25*"/>
+                                    <ColumnDefinition Width="25*"/>
+                                    <ColumnDefinition Width="25*"/>
+                                    <ColumnDefinition Width="25*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label x:Name="l4_name" Grid.Row="0" Grid.Column="0"></Label>
+                                <Label x:Name="l4_distance" Grid.Row="0" Grid.Column="3"></Label>
+                                <Label x:Name="l4_cuisine" Grid.Row="1" Grid.Column="0"></Label>
+                                <Image x:Name="l4_rating" Grid.Row="1" Grid.Column="1" ></Image>
+                                <Label x:Name="l4_reviews" Grid.Row="1" Grid.Column="2"></Label>
+                                <Label x:Name="l4_price" Grid.Row="1" Grid.Column="3"></Label>
+                            </Grid>
+                        </GroupBox>
+
+                        <GroupBox x:Name="line5" Header="Line 5"  Grid.Row="4" Style="{StaticResource ListGroup}" 
+                                  MouseEnter="mouse_enter" MouseLeave="mouse_leave" MouseDown="mouse_down" MouseUp="mouse_up">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="50*"/>
+                                    <RowDefinition Height="50*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="25*"/>
+                                    <ColumnDefinition Width="25*"/>
+                                    <ColumnDefinition Width="25*"/>
+                                    <ColumnDefinition Width="25*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label x:Name="l5_name" Grid.Row="0" Grid.Column="0"></Label>
+                                <Label x:Name="l5_distance" Grid.Row="0" Grid.Column="3"></Label>
+                                <Label x:Name="l5_cuisine" Grid.Row="1" Grid.Column="0"></Label>
+                                <Image x:Name="l5_rating" Grid.Row="1" Grid.Column="1" ></Image>
+                                <Label x:Name="l5_reviews" Grid.Row="1" Grid.Column="2"></Label>
+                                <Label x:Name="l5_price" Grid.Row="1" Grid.Column="3"></Label>
+                            </Grid>
+                        </GroupBox>
+                    </Grid>
+                </Border>
+            </TabItem>
+
+            <TabItem Header="Radio">
+                <Grid Background="Gray">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50*"/>
+                        <RowDefinition Height="50*"/>
+                        <RowDefinition Height="50*"/>
+                        <RowDefinition Height="50*"/>
+                        <RowDefinition Height="50*"/>
+                        <RowDefinition Height="50*"/>
+                        <RowDefinition Height="50*"/>
+                        <RowDefinition Height="50*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="25*"/>
+                        <ColumnDefinition Width="25*"/>
+                        <ColumnDefinition Width="25*"/>
+                        <ColumnDefinition Width="25*"/>
+                        <ColumnDefinition Width="25*"/>
+                        <ColumnDefinition Width="25*"/>
+                        <ColumnDefinition Width="25*"/>
+                        <ColumnDefinition Width="25*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Border Grid.Row="0" Grid.RowSpan="4" Grid.ColumnSpan="8" BorderThickness="5" CornerRadius="10" BorderBrush="Black" Background="White"></Border>
+
+                    <Viewbox Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" HorizontalAlignment="Right">
+                        <Label>Correct:</Label>
+                    </Viewbox>
+
+                    <Viewbox Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="3" HorizontalAlignment="Left">
+                        <Label x:Name="wiz_radio_correct">Bla Bla BLa</Label>
+                    </Viewbox>
+
+                    <Button Style="{StaticResource radio_btn}" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" x:Name="r_cmd_correct" Background="Green" Click="r_cmd_correct_Click">Command Correct</Button>
+                    <Button Style="{StaticResource radio_btn}" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="2" x:Name="r_cmf_correct" Background="Green" Click="r_cmf_correct_Click">Confirm Correct</Button>
+                    <Button Style="{StaticResource radio_btn}" Grid.Row="5" Grid.Column="3" Grid.ColumnSpan="2" x:Name="r_cmd_wrong" Background="Red" Click="r_cmd_wrong_Click">Command Incorrect</Button>
+                    <Button Style="{StaticResource radio_btn}" Grid.Row="6" Grid.Column="3" Grid.ColumnSpan="2" x:Name="r_cmf_wrong" Background="Red" Click="r_cmf_wrong_Click">Confirm Incorrect</Button>
+                    <Button Style="{StaticResource radio_btn}" Grid.Row="5" Grid.Column="5" Grid.ColumnSpan="2" x:Name="r_cmd_repeat" Background="DeepSkyBlue" Click="r_cmd_repeat_Click">Command Repeat</Button>
+                    <Button Style="{StaticResource radio_btn}" Grid.Row="6" Grid.Column="5" Grid.ColumnSpan="2" x:Name="r_cmf_repeat" Background="DeepSkyBlue" Click="r_cmf_repeat_Click">Confirm Repeat</Button>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="TDT" Name="tab_tdt">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25*" />
+                        <RowDefinition Height="75*" />
+                    </Grid.RowDefinitions>
+
+                    <Viewbox Grid.Row="0" HorizontalAlignment="Center">
+                        <Label Name="wiz_tdt_label">TDT Time Remaining:</Label>
+                    </Viewbox>
+
+                    <Viewbox Grid.Row="1" HorizontalAlignment="Center">
+                        <Label x:Name="tdt_countdown">60</Label>
+                    </Viewbox>
+
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="End">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25*" />
+                        <RowDefinition Height="75*" />
+                    </Grid.RowDefinitions>
+
+                    <Viewbox Grid.Row="0" HorizontalAlignment="Center">
+                        <Label >Completed Trials</Label>
+                    </Viewbox>
+
+                    <Viewbox Grid.Row="1" HorizontalAlignment="Center">
+                        <Label ></Label>
+                    </Viewbox>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Command Input" Name="tab_command">
+                <Grid Background="Gray">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50*"/>
+                        <RowDefinition Height="50*"/>
+                        <RowDefinition Height="50*"/>
+                        <RowDefinition Height="50*"/>
+                        <RowDefinition Height="50*"/>
+                        <RowDefinition Height="50*"/>
+                        <RowDefinition Height="50*"/>
+                        <RowDefinition Height="50*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="18*"/>
+                        <ColumnDefinition Width="9*"/>
+                        <ColumnDefinition Width="67*"/>
+                        <ColumnDefinition Width="95*"/>
+                        <ColumnDefinition Width="94*"/>
+                        <ColumnDefinition Width="95*"/>
+                        <ColumnDefinition Width="94*"/>
+                        <ColumnDefinition Width="95*"/>
+                        <ColumnDefinition Width="94*"/>
+                        <ColumnDefinition Width="95*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Border Grid.Row="0" Grid.RowSpan="4" Grid.ColumnSpan="10" BorderThickness="5" CornerRadius="10" BorderBrush="Black" Background="White"></Border>
+
+                    <Viewbox Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" HorizontalAlignment="Left">
+                        <Label Foreground="Green">Correct:</Label>
+                    </Viewbox>
+
+                    <TextBlock TextWrapping="Wrap" FontSize="35" Grid.Row="1" Grid.ColumnSpan="10" Grid.RowSpan="3" Padding="10" x:Name="n_prompt">
+                        Bla bla bla bla bla bla bla bla bla
+                    </TextBlock>
+
+                    <Viewbox Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="9" Grid.RowSpan="3">
+                        <!--<Label x:Name="wiz_comand_correct" Content="Let's go to a Chinese restaurant with at least 3 reviews"/>-->
+                    </Viewbox>
+
+                    <Button Style="{StaticResource radio_btn}" Grid.Row="5" Grid.Column="3" Grid.ColumnSpan="2" x:Name="n_cmd_correct" Background="Green" Click="n_cmd_correct_Click" >Correct</Button>
+                    <Button Style="{StaticResource radio_btn}" Grid.Row="5" Grid.Column="5" Grid.ColumnSpan="2" x:Name="n_cmd_incorrect" Background="Red" Click="n_cmd_incorrect_Click" >Incorrect</Button>
+                    <Button Style="{StaticResource radio_btn}" Grid.Row="5" Grid.Column="7" Grid.ColumnSpan="2" x:Name="n_cmd_repeat" Background="Orange" Click="n_cmd_repeat_Click" >Repeat</Button>
+
+                </Grid>
+            </TabItem>
+
+        </TabControl>
+
+
+
+
+
+
+
+
+
+
+
+    </Grid>
+</Window>

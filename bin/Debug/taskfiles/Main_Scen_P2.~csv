@@ -1,0 +1,78 @@
+Trial,Task,Cognitive,Visual,Name,Cuisine,Rating,Reviews,Price,Distance,Score,N_Prompt,Text_Prompt,N_Audio,R_Name,R_Audio_Prompt,R_Audio_Confirm,R_Name_Incorrect,R_Audio_Incorrect
+1,TDT Short,NA,NA,NA,NA,-5,-5,NA,-5,-5,NA,NA,NA,NA,NA,NA,NA,NA
+,,,,,,,,,,,,,,,,,,
+2,Nav,Easy,Easy,Tokyo House,Japanese,4,72,$$$$,7.4,1,m2_prompt_01.mp3,Find a restaurant with 4 star rating,NA,NA,NA,NA,NA,NA
+2,Nav,Easy,Easy,The Carving Board,American,3,17,$$,9.3,0,m2_prompt_01.mp3,Find a restaurant with 4 star rating,NA,NA,NA,NA,NA,NA
+2,Nav,Easy,Easy,DC Steak House,American,2.5,64,$$$$,10.1,0,m2_prompt_01.mp3,Find a restaurant with 4 star rating,NA,NA,NA,NA,NA,NA
+2,Nav,Easy,Easy,Heavenly Havana,Cuban,3.5,1,$,17.2,0,m2_prompt_01.mp3,Find a restaurant with 4 star rating,NA,NA,NA,NA,NA,NA
+2,Nav,Easy,Easy,Eiffel Tower Cafe,French,2,125,$$$,20.9,0,m2_prompt_01.mp3,Find a restaurant with 4 star rating,NA,NA,NA,NA,NA,NA
+,,,,,,,,,,,,,,,,,,
+3,Nav,Easy,Easy,Five Guys Burgers and Fries,American,4,21,$,0.1,1,m2_prompt_02.mp3,Find a restaurant with 1 dollar sign,NA,NA,NA,NA,NA,NA
+3,Nav,Easy,Easy,Yin and Yam,Chinese,2,5,$$,7,0,m2_prompt_02.mp3,Find a restaurant with 1 dollar sign,NA,NA,NA,NA,NA,NA
+3,Nav,Easy,Easy,Subway,American,3.5,22,$$,9.5,0,m2_prompt_02.mp3,Find a restaurant with 1 dollar sign,NA,NA,NA,NA,NA,NA
+3,Nav,Easy,Easy,Wok Right In,Japanese,3.5,141,$$,18.3,0,m2_prompt_02.mp3,Find a restaurant with 1 dollar sign,NA,NA,NA,NA,NA,NA
+3,Nav,Easy,Easy,South China,Chinese,2,55,$$,28,0,m2_prompt_02.mp3,Find a restaurant with 1 dollar sign,NA,NA,NA,NA,NA,NA
+,,,,,,,,,,,,,,,,,,
+4,Nav,Easy,Easy,Tofu For U,Korean,4,121,$$,3.8,1,m2_prompt_03.mp3,Please locate a Korean restaurant,NA,NA,NA,NA,NA,NA
+4,Nav,Easy,Easy,The Great Wall,Chinese,4,38,$,4.3,0,m2_prompt_03.mp3,Please locate a Korean restaurant,NA,NA,NA,NA,NA,NA
+4,Nav,Easy,Easy,Royal India,Indian,3.5,58,$,10,0,m2_prompt_03.mp3,Please locate a Korean restaurant,NA,NA,NA,NA,NA,NA
+4,Nav,Easy,Easy,The Willows,American,3.5,134,$,23.5,0,m2_prompt_03.mp3,Please locate a Korean restaurant,NA,NA,NA,NA,NA,NA
+4,Nav,Easy,Easy,Buffalo Wild Wings,American,3,87,$$,27,0,m2_prompt_03.mp3,Please locate a Korean restaurant,NA,NA,NA,NA,NA,NA
+,,,,,,,,,,,,,,,,,,
+5,Nav,Easy,Hard,Blue Diamond Brewery,American,2,82,$$,1.7,0,m2_prompt_04.mp3,Find a restaurant less than 15 miles away,NA,NA,NA,NA,NA,NA
+5,Nav,Easy,Hard,Burger Barn,American,3,15,$$,7.8,0,m2_prompt_04.mp3,Find a restaurant less than 15 miles away,NA,NA,NA,NA,NA,NA
+5,Nav,Easy,Hard,Satis Fried,American,2,97,$$,13,0,m2_prompt_04.mp3,Find a restaurant less than 15 miles away,NA,NA,NA,NA,NA,NA
+5,Nav,Easy,Hard,Dairy Queen,American,4.5,117,$,14.6,1,m2_prompt_04.mp3,Find a restaurant less than 15 miles away,NA,NA,NA,NA,NA,NA
+5,Nav,Easy,Hard,Ristorante Simone,Italian,4,69,$$,28.9,0,m2_prompt_04.mp3,Find a restaurant less than 15 miles away,NA,NA,NA,NA,NA,NA
+,,,,,,,,,,,,,,,,,,
+6,Nav,Easy,Hard,The Hunger Gains,American,3,75,$$$$,2,0,m2_prompt_05.mp3,Find a restaurant with greater than 3 star rating,NA,NA,NA,NA,NA,NA
+6,Nav,Easy,Hard,National Treasure,American,4.5,63,$,6.7,1,m2_prompt_05.mp3,Find a restaurant with greater than 3 star rating,NA,NA,NA,NA,NA,NA
+6,Nav,Easy,Hard,Cedar,American,4,41,$$,9.3,0,m2_prompt_05.mp3,Find a restaurant with greater than 3 star rating,NA,NA,NA,NA,NA,NA
+6,Nav,Easy,Hard,China Bistro,Chinese,4,37,$,9.8,0,m2_prompt_05.mp3,Find a restaurant with greater than 3 star rating,NA,NA,NA,NA,NA,NA
+6,Nav,Easy,Hard,Southern Kitchen,American,4,133,$$,29.1,0,m2_prompt_05.mp3,Find a restaurant with greater than 3 star rating,NA,NA,NA,NA,NA,NA
+,,,,,,,,,,,,,,,,,,
+7,Nav,Easy,Hard,Spice Xing,Indian,4,36,$$,8.8,0,m2_prompt_06.mp3,Find an American restaurant,NA,NA,NA,NA,NA,NA
+7,Nav,Easy,Hard,Seasons 52,American,3.5,22,$$,9.5,0,m2_prompt_06.mp3,Find an American restaurant,NA,NA,NA,NA,NA,NA
+7,Nav,Easy,Hard,Nick's Chophouse,American,4,6,$$$$,10.3,0,m2_prompt_06.mp3,Find an American restaurant,NA,NA,NA,NA,NA,NA
+7,Nav,Easy,Hard,Alpha Pi,American,3.5,39,$$,19.4,0,m2_prompt_06.mp3,Find an American restaurant,NA,NA,NA,NA,NA,NA
+7,Nav,Easy,Hard,Town Hall,American,4.5,62,$,20.7,1,m2_prompt_06.mp3,Find an American restaurant,NA,NA,NA,NA,NA,NA
+,,,,,,,,,,,,,,,,,,
+8,TDT Short,NA,,NA,NA,-5,-5,NA,-5,-5,NA,NA,NA,NA,NA,NA,NA,NA
+,,,,,,,,,,,,,,,,,,
+9,Nav,Hard,Easy,Retrolicous,American,5,112,$,5.4,1,m2_prompt_07.mp3,Find a 5 star American restaurant with 1 dollar sign and is less than 7 miles away,NA,NA,NA,NA,NA,NA
+9,Nav,Hard,Easy,The Frying Scotsman,Seafood,4.5,234,$,6.1,0,m2_prompt_07.mp3,Find a 5 star American restaurant with 1 dollar sign and is less than 7 miles away,NA,NA,NA,NA,NA,NA
+9,Nav,Hard,Easy,Swiss Hibiscus,German,4.5,204,$$,8.8,0,m2_prompt_07.mp3,Find a 5 star American restaurant with 1 dollar sign and is less than 7 miles away,NA,NA,NA,NA,NA,NA
+9,Nav,Hard,Easy,Kala Noodle,Thai,4.5,115,$,15.7,0,m2_prompt_07.mp3,Find a 5 star American restaurant with 1 dollar sign and is less than 7 miles away,NA,NA,NA,NA,NA,NA
+9,Nav,Hard,Easy,Nuestro Cocina,Mexican,4.5,324,$$,17.1,0,m2_prompt_07.mp3,Find a 5 star American restaurant with 1 dollar sign and is less than 7 miles away,NA,NA,NA,NA,NA,NA
+,,,,,,,,,,,,,,,,,,
+10,Nav,Hard,Easy,Vert Kitchen,French,3,53,$$$$,0.1,1,m2_prompt_08.mp3,Locate a 3 star French restaurant with more than 10 reviews and is less than 1 mile away,NA,NA,NA,NA,NA,NA
+10,Nav,Hard,Easy,Meadowlark Kitchen,American,2.5,63,$$$,0.3,0,m2_prompt_08.mp3,Locate a 3 star French restaurant with more than 10 reviews and is less than 1 mile away,NA,NA,NA,NA,NA,NA
+10,Nav,Hard,Easy,The Plimoth,Italian,3.5,107,$$$,2.2,0,m2_prompt_08.mp3,Locate a 3 star French restaurant with more than 10 reviews and is less than 1 mile away,NA,NA,NA,NA,NA,NA
+10,Nav,Hard,Easy,Wikipita,Greek,3.5,74,$$,5.7,0,m2_prompt_08.mp3,Locate a 3 star French restaurant with more than 10 reviews and is less than 1 mile away,NA,NA,NA,NA,NA,NA
+10,Nav,Hard,Easy,Uber Eats,German,2,153,$,5.9,0,m2_prompt_08.mp3,Locate a 3 star French restaurant with more than 10 reviews and is less than 1 mile away,NA,NA,NA,NA,NA,NA
+,,,,,,,,,,,,,,,,,,
+11,Nav,Hard,Easy,Brasa Rotisserie,Caribbean,4.5,622,$$$$,3.7,1,m2_prompt_09.mp3,Find a Carabbean restaurant with 4.5 star rating 4 dollar sign and is less than 3 miles away,NA,NA,NA,NA,NA,NA
+11,Nav,Hard,Easy,Lotus Restaurant,Vietnamese,3,211,$,4.6,0,m2_prompt_09.mp3,Find a Carabbean restaurant with 4.5 star rating 4 dollar sign and is less than 3 miles away,NA,NA,NA,NA,NA,NA
+11,Nav,Hard,Easy,The Kenwood,American,3,103,$$$,7.8,0,m2_prompt_09.mp3,Find a Carabbean restaurant with 4.5 star rating 4 dollar sign and is less than 3 miles away,NA,NA,NA,NA,NA,NA
+11,Nav,Hard,Easy,Hola Arepa,Latin,4,225,$$,13.1,0,m2_prompt_09.mp3,Find a Carabbean restaurant with 4.5 star rating 4 dollar sign and is less than 3 miles away,NA,NA,NA,NA,NA,NA
+11,Nav,Hard,Easy,Band Box diner,American,3,97,$,17.8,0,m2_prompt_09.mp3,Find a Carabbean restaurant with 4.5 star rating 4 dollar sign and is less than 3 miles away,NA,NA,NA,NA,NA,NA
+,,,,,,,,,,,,,,,,,,
+12,Nav,Hard,Hard,Art Kitchen,American,3.5,103,$,7.4,1,m2_prompt_10.mp3,Locate a 1 dollar sign American restaurant with more than 3 star rating and more than 10 reviews,NA,NA,NA,NA,NA,NA
+12,Nav,Hard,Hard,Atlas House,American,3.5,17,$,7.5,0,m2_prompt_10.mp3,Locate a 1 dollar sign American restaurant with more than 3 star rating and more than 10 reviews,NA,NA,NA,NA,NA,NA
+12,Nav,Hard,Hard,Ferry Street BBQ,Barbeque,3.5,119,$$,9.3,0,m2_prompt_10.mp3,Locate a 1 dollar sign American restaurant with more than 3 star rating and more than 10 reviews,NA,NA,NA,NA,NA,NA
+12,Nav,Hard,Hard,Harvest Table,American,3,60,$,11.4,0,m2_prompt_10.mp3,Locate a 1 dollar sign American restaurant with more than 3 star rating and more than 10 reviews,NA,NA,NA,NA,NA,NA
+12,Nav,Hard,Hard,Fix N' Mix,American,2.5,40,$,11.8,0,m2_prompt_10.mp3,Locate a 1 dollar sign American restaurant with more than 3 star rating and more than 10 reviews,NA,NA,NA,NA,NA,NA
+,,,,,,,,,,,,,,,,,,
+13,Nav,Hard,Hard,The Gravy Train,BBQ,5,682,$,2.1,0,m2_prompt_11.mp3,Find an American restaurant less than 10 miles away and has more than 300 reviews,NA,NA,NA,NA,NA,NA
+13,Nav,Hard,Hard,Salty Show,American,3.5,147,$$$,3.7,0,m2_prompt_11.mp3,Find an American restaurant less than 10 miles away and has more than 300 reviews,NA,NA,NA,NA,NA,NA
+13,Nav,Hard,Hard,Odd Duck,Amercian,4,470,$$,3.9,1,m2_prompt_11.mp3,Find an American restaurant less than 10 miles away and has more than 300 reviews,NA,NA,NA,NA,NA,NA
+13,Nav,Hard,Hard,Eastside Café,American,4,325,$$$,5.2,0,m2_prompt_11.mp3,Find an American restaurant less than 10 miles away and has more than 300 reviews,NA,NA,NA,NA,NA,NA
+13,Nav,Hard,Hard,Moonshine Patio Bar,American,4,684,$$,6.8,0,m2_prompt_11.mp3,Find an American restaurant less than 10 miles away and has more than 300 reviews,NA,NA,NA,NA,NA,NA
+,,,,,,,,,,,,,,,,,,
+14,Nav,Hard,Hard,Mike & Patty's,American,4,234,$$$$,5,0,m2_prompt_12.mp3,Find a restaurant less than 10 miles away and has more than 200 reviews,NA,NA,NA,NA,NA,NA
+14,Nav,Hard,Hard,Atlantic Fish Company,Seafood,4,537,$$$,5.3,0,m2_prompt_12.mp3,Find a restaurant less than 10 miles away and has more than 200 reviews,NA,NA,NA,NA,NA,NA
+14,Nav,Hard,Hard,The North End,Italian,4,71,$$,7.2,0,m2_prompt_12.mp3,Find a restaurant less than 10 miles away and has more than 200 reviews,NA,NA,NA,NA,NA,NA
+14,Nav,Hard,Hard,Ostra,Fusion,4.5,129,$$$$,8.6,0,m2_prompt_12.mp3,Find a restaurant less than 10 miles away and has more than 200 reviews,NA,NA,NA,NA,NA,NA
+14,Nav,Hard,Hard,Boss Sauce,Belgian,4.5,662,$,9.4,1,m2_prompt_12.mp3,Find a restaurant less than 10 miles away and has more than 200 reviews,NA,NA,NA,NA,NA,NA
+,,,,,,,,,,,,,,,,,,
+15,TDT Long,NA,,NA,NA,-5,-5,NA,-5,-5,NA,NA,NA,NA,NA,NA,NA,NA

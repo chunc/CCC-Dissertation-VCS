@@ -1,0 +1,8 @@
+PID, Date, Time, RunType, Scenario, Trial, Task, Cognitive, Visual, InputEvent, ElapsedTime, Duration, N_OptimalChoice, R_FirstTry, Notes
+xxx,7/24/2015,14:41:11,Practice,NA,1,Nav,Easy,Easy,Start Run,14:41:11.58,63573345671.59,NA,NA,
+xxx,7/24/2015,14:41:11,Practice,NA,1,Nav,Easy,Easy,(phase) Listening Start,14:41:11.60,63573345671.605,NA,NA,
+xxx,7/24/2015,14:41:13,Practice,NA,1,Nav,Easy,Easy,(phase) Listening Stop,0:00:01.34,1.341,NA,NA,
+xxx,7/24/2015,14:41:13,Practice,NA,1,Nav,Easy,Easy,(phase) Speaking Start,0:00:01.34,1.341,NA,NA,
+xxx,7/24/2015,14:41:15,Practice,NA,1,Nav,Easy,Easy,(phase) Speaking Stop,0:00:04.09,4.094,NA,NA,
+xxx,7/24/2015,14:41:15,Practice,NA,1,Nav,Easy,Easy,(btn) command correct perfect,0:00:04.10,4.109,NA,NA,
+xxx,7/24/2015,14:41:16,Practice,NA,1,Nav,Easy,Easy,(phase) Reading Start,0:00:04.35,4.35,NA,NA,
